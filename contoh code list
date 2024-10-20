@@ -1,0 +1,14 @@
+bilangan = ["1", "2", "3", "4"]
+
+# Menambahkan dan menghapus bilangan
+bilangan.append("2")
+bilangan.remove("3")
+
+# Mengiterasi dan mencetak bilangan
+for bilangan in bilangan:
+    print(bilangan)  
+# Output: 1, 2, 3, 4
+
+# Menghitung jumlah bilangan
+print("Jumlah bilangan:", len(bilangan))  
+# Output: Jumlah bilangan: 4
