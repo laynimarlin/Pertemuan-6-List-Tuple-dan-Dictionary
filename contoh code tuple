@@ -1,0 +1,18 @@
+# Membuat tuple
+buah = ("apel", "jeruk", "pisang")
+
+# Menampilkan tuple
+print(buah)  
+# Output: ('apel', 'jeruk', 'pisang')
+
+# Mengakses elemen pertama
+print(buah[0])  
+# Output: apel
+
+# Menghitung jumlah elemen
+print(len(buah))  
+# Output: 3
+
+# Mengiterasi melalui tuple
+for item in buah:
+    print(item)
