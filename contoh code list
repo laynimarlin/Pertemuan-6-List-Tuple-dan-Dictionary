@@ -1,9 +1,12 @@
 # Menentukan elemen
 buah = ["apel", "jeruk", "pisang"]
+
 # Menambah
-buah.append("mangga")  
+buah.append("mangga") 
+
 # Menghapus
 buah.remove("jeruk")
+
 # Cetak hasil
 for b in buah:
     print(b)
