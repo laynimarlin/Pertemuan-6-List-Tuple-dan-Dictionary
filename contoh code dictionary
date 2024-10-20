@@ -1,0 +1,13 @@
+# Menambah elemen
+buah = {"apel": 3,
+        "jeruk": 5}
+  
+# Menambah
+buah["mangga"] = 4
+  
+# Menghapus
+del buah["jeruk"]
+
+# Cetak hasil
+for k, v in buah.items():
+    print(f"{k}: {v}")
